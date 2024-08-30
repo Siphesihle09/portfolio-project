@@ -1,16 +1,21 @@
 .hero {
-  background: rgb(211, 211, 226);
+  background: rgb(229, 229, 242);
   text-align: center;
   color: black;
-  padding: 170px 30px;
+  padding: 210px 30px;
+  line-height: 2px;
 }
 h1 {
-  font-size: 90px;
+  font-size: 17px;
   text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-weight: 900;
+  font-family: "Playfair Display", serif;
 }
-
+p {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Lora", serif;
+  font-style: normal;
+}
 h2 {
   text-align: center;
   font-family: "Baskervville SC", serif;
@@ -26,4 +31,16 @@ h2 {
   border-radius: 4px;
   line-height: 40px;
   margin-top: 10px;
+  text-align: center;
+}
+.weather-app {
+  text-decoration: none;
+  color: white;
+  background: rgb(74, 59, 124);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 6px;
+  line-height: 40px;
+  margin-top: 10px;
+  text-align: center;
 }
