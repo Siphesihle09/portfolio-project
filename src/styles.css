@@ -5,6 +5,7 @@
     rgb(210, 210, 211) 78.4%
   );
   --secondary-color: rgb(229, 229, 242);
+  --font-family: ;
 }
 
 .projects {
@@ -47,7 +48,7 @@ h1 {
 }
 p {
   text-align: center;
-  font-size: 19px;
+  font-size: 20px;
   font-family: "Playfair Display", serif;
   font-style: normal;
 }
@@ -90,7 +91,7 @@ footer {
   padding: 40px;
 }
 .contact-box {
-  background: rgb(184, 191, 200);
+  background: rgb(195, 195, 195);
   border-radius: 4px;
   width: 1200px;
   padding: 40px 50px;
@@ -112,7 +113,7 @@ footer {
 .contact-button {
   border-radius: 8px;
   border: 2px solid;
-  color: black;
+  color: rgb(124, 42, 156);
 }
 .about-page {
   background: linear-gradient(
@@ -127,4 +128,35 @@ footer {
 }
 .work-page {
   background: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 900px) {
+  .row {
+    padding: 5px 5px;
+    margin-top: 1px;
+  }
 }
