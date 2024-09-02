@@ -1,14 +1,16 @@
-.projects {
-  background: linear-gradient(
+:root {
+  --primary-color: linear-gradient(
     109.5deg,
     rgb(220, 221, 233) 9.4%,
     rgb(210, 210, 211) 78.4%
   );
+  --secondary-color: rgb(229, 229, 242);
 }
-nav {
-  padding: 20px;
-  background: rgb(108, 93, 156);
+
+.projects {
+  background: var(--primary-color);
 }
+
 .navbar-links {
   font-size: 20px;
   font-weight: bold;
@@ -20,26 +22,19 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Oswald", serif;
+  font-size: 20px;
 }
+
 nav a:hover,
 nav li.active a {
-  transition: all 170ms ease-in-out;
-  background-color: rgb(108, 93, 156);
-  border-radius: 5px;
-  border: white solid 2px;
-  padding: 10px;
-  color: white;
+  color: var(--primary-color);
 }
 header {
-  background: linear-gradient(
-    109.5deg,
-    rgb(220, 221, 233) 9.4%,
-    rgb(210, 210, 211) 78.4%
-  );
+  background: var(--primary-color);
 }
 .hero {
-  background: rgb(229, 229, 242);
+  background: var(--secondary-color);
   text-align: center;
   color: black;
   padding: 210px 30px;
@@ -111,14 +106,13 @@ footer {
 }
 
 .contact-links:hover {
-  background-color: blueviolet;
-  border-radius: 100%;
-  padding: 10px 15px;
+  border-radius: 4px;
+  color: blueviolet;
 }
 .contact-button {
   border-radius: 8px;
-  background-color: rgb(63, 82, 118);
-  color: white;
+  border: 2px solid;
+  color: black;
 }
 .about-page {
   background: linear-gradient(
@@ -130,4 +124,7 @@ footer {
 }
 .container {
   padding: 40px;
+}
+.work-page {
+  background: var(--primary-color);
 }
