@@ -31,7 +31,6 @@ nav li.active a {
   padding: 10px;
   color: white;
 }
-
 header {
   background: linear-gradient(
     109.5deg,
@@ -54,7 +53,7 @@ h1 {
 p {
   text-align: center;
   font-size: 19px;
-  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
 }
 h2 {
@@ -93,5 +92,42 @@ footer {
   text-align: center;
   font-size: 15px;
   font-family: "Playfair Display", serif;
+  padding: 40px;
+}
+.contact-box {
+  background: rgb(184, 191, 200);
+  border-radius: 4px;
+  width: 1200px;
+  padding: 40px 50px;
+  margin: 0 auto;
+  display: block;
+}
+.footer-links {
+  padding: 40px;
+  max-width: 250px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: rgb(184, 191, 200);
+}
+
+.contact-links:hover {
+  background-color: blueviolet;
+  border-radius: 100%;
+  padding: 10px 15px;
+}
+.contact-button {
+  border-radius: 8px;
+  background-color: rgb(63, 82, 118);
+  color: white;
+}
+.about-page {
+  background: linear-gradient(
+    109.5deg,
+    rgb(220, 221, 233) 9.4%,
+    rgb(210, 210, 211) 78.4%
+  );
+  padding: 30px;
+}
+.container {
   padding: 40px;
 }
