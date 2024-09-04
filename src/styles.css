@@ -45,12 +45,12 @@ header {
 h1 {
   font-size: 90px;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
 }
 p {
   text-align: center;
   font-size: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   font-style: normal;
 }
 h2 {
@@ -70,6 +70,10 @@ h2 {
   margin: 15px;
   text-align: center;
 }
+.contact-me:hover {
+  background: var(--primary-color);
+  color: black;
+}
 .weather-app {
   text-decoration: none;
   color: white;
@@ -88,7 +92,7 @@ h2 {
 footer {
   text-align: center;
   font-size: 15px;
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   padding: 40px;
 }
 .contact-box {
@@ -111,14 +115,11 @@ footer {
   border-radius: 4px;
   color: blueviolet;
 }
-.contact-button:hover {
+.contact-button {
   border-radius: 8px;
   border: 2px solid;
   color: rgb(124, 42, 156);
   font-size: 19px;
-}
-.contact-button {
-  font-size: 20px;
 }
 
 .about-page {
@@ -132,6 +133,7 @@ footer {
 .container {
   padding: 40px;
 }
+.contact-page,
 .work-page {
   background: var(--primary-color);
 }
@@ -159,4 +161,7 @@ footer {
     padding: 0;
     text-align: center;
   }
+}
+.contact-h {
+  font-size: 60px;
 }
